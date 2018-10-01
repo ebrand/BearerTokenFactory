@@ -82,14 +82,16 @@ namespace Dell.Koa.Common.Http.Security
 				                            
 			// TODO: call the Identity service to receive a new bearer token
 			Console.WriteLine($"Calling the Koa Identity service to retrieve a valid bearer token ({clientInfo.ClientId}/{clientInfo.ClientSecret})...");
-			Thread.Sleep(2000);
+
+			// simulate a serice call
+			Thread.Sleep(100);
 
 			// TODO: set the 'clientInfo.BearerTokenInfo' to the BTI retrieved from the Identity service
 			clientInfo.BearerTokenInfo = new BearerTokenInfo(clientInfo.ExpiresInSeconds);
 		}
-		private IdentityClientInfo FindIdentityClient(string api)
+		private IdentityClientInfo FindIdentityClient(string apiName)
 		{
-			return _identityClients.FirstOrDefault(ic => ic.Api == api);
+			return _identityClients.FirstOrDefault(ic => ic.Api == apiName);
 		}
 	}
 }
