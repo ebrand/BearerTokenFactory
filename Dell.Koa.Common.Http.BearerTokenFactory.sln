@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dell.Koa.Common.Http.BearerTokenFactoryHarness", "Dell.Koa.Common.Http.BearerTokenFactoryHarness\Dell.Koa.Common.Http.BearerTokenFactoryHarness.csproj", "{C1EF2CE2-E6D4-4707-B81E-3DE87C491533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dell.Koa.Common.Http.Security", "Dell.Koa.Common.Http.Security\Dell.Koa.Common.Http.Security.csproj", "{BDF25A6F-20E6-420A-8DA2-A27097A4BAF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dell.Koa.Common.Http.Security.Tests", "Dell.Koa.Common.Http.Security.Tests\Dell.Koa.Common.Http.Security.Tests.csproj", "{0F2A1AD9-E6B8-433E-B4A8-20EB573581BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1EF2CE2-E6D4-4707-B81E-3DE87C491533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EF2CE2-E6D4-4707-B81E-3DE87C491533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EF2CE2-E6D4-4707-B81E-3DE87C491533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EF2CE2-E6D4-4707-B81E-3DE87C491533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF25A6F-20E6-420A-8DA2-A27097A4BAF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF25A6F-20E6-420A-8DA2-A27097A4BAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF25A6F-20E6-420A-8DA2-A27097A4BAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF25A6F-20E6-420A-8DA2-A27097A4BAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2A1AD9-E6B8-433E-B4A8-20EB573581BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2A1AD9-E6B8-433E-B4A8-20EB573581BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2A1AD9-E6B8-433E-B4A8-20EB573581BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2A1AD9-E6B8-433E-B4A8-20EB573581BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
